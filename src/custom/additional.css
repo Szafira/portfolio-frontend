@@ -1,0 +1,24 @@
+.default-background{
+    background-color: #99d6ff;
+    flex:auto;
+    padding-bottom:30%;
+
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 93, 199);
+    color: white;
+  }
+.right-item{
+    align-self: right;
+}
+.gallery-row{
+    height: 500px;;
+}
+.login-container {
+    max-width: 400px;
+    left: 10px;
+}
