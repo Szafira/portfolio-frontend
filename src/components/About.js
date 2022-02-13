@@ -7,11 +7,9 @@ export default function About () {
         <Row>
             <Col><Image src={portrait} width="200" height="200" className='rounded-circle border border-dark'/></Col>  
             <Col className='col-9 text-center'><h1>About me</h1>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a justo nec lacus congue ornare ac et lorem. 
-            Aenean feugiat augue neque, et laoreet nisi cursus eu. Aenean a iaculis nibh, pulvinar imperdiet nunc. 
-            Nulla libero orci, venenatis non arcu id, porttitor ullamcorper mi. 
-            Fusce mattis dui risus. Ut eu sem a nibh lacinia laoreet quis et magna. Cras laoreet rutrum turpis eu rutrum. Quisque non sodales neque. </Col>
-            
+            <h2>Programistka C# i grafik komputerowy</h2>
+            Poza pracą zawodową jako programistka, zajmuje się grafiką komputerową zaczynając od assetów do gier i mniejszych projektów,
+                po ilustracje dla polskiego fanpage'a XP-Pena</Col>
         </Row>
         </Container>
     )}

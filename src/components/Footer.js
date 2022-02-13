@@ -4,7 +4,7 @@ export default function Footer () {
     return (
         <Container>
             <Nav className='footer'>
-                <Nav.Link className='right-item' href="/AdminPanel"> Panel administracji</Nav.Link>
+                <Nav.Link className='right-item' href="/loginPage"> Panel administracji</Nav.Link>
             </Nav>
         </Container>
     )}

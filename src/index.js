@@ -6,11 +6,13 @@ import Gallery from '../src/components/Gallery'
 import About from '../src/components/About'
 import React from 'react';
 import Footer from './components/Footer';
-import AdminPanel from  './components/AdminPanel';
+import AdminPanel from './components/AdminPanel';
+import LoginPage from  './components/LoginPage';
 import {
     BrowserRouter as Router,
     Route, Routes
   } from "react-router-dom";
+
    
   
 class App extends React.Component{
@@ -24,6 +26,7 @@ class App extends React.Component{
           <Route path="MainPage" element={<MainPage/>}/>
           <Route path="Gallery" element={<Gallery/>}/>
           <Route path="About" element={<About/>}/>
+          <Route path="LoginPage" element={<LoginPage/>}/>
           <Route path="AdminPanel" element={<AdminPanel/>}/>
           </Routes>
         <Footer/>

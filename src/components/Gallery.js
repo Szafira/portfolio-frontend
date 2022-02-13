@@ -1,6 +1,4 @@
 import { Container, Row } from "react-bootstrap";
-import  ImageGallery  from "react-image-gallery";
-import Comments from "./Comments";
 import additional from '../custom/additional.css';
 import { ImageSlider } from "react-simple-gallery"
 import "react-simple-gallery/dist/index.css"

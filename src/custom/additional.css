@@ -23,3 +23,14 @@
     max-width: 400px;
     left: 10px;
 }
+.main-page-container{
+    padding: 10px;
+    color: rgb(45, 94, 151)
+}
+.main-page-button{
+min-height: 100px;
+min-width:  600px;
+text-align: center;
+background-color: rgb(140, 191, 250)
+
+}
