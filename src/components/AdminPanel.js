@@ -4,13 +4,11 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import { Container } from "react-bootstrap";
 
-
 export default function Comments () {
 
 
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
-    
     const [data, setData] = useState('');
     const handleSubmit = (e) => {
       
@@ -25,18 +23,16 @@ export default function Comments () {
         
         
         console.log(Users);
-        var test = axios.post('http://localhost:8080/login',Users,{ headers: {
+       var test = axios.post('http://localhost:8080/account/login',Users,{ headers: {
           'Content-Type': 'application/json'}},).then(Response =>
          {
-          console.log(
-          Response.data)
+    
           setData(Response.data);
         })
         .catch(error => {console.log(error.Response)})
         
-       
           }
-         
+ 
     
   return (
     <Container className='login-container'>
