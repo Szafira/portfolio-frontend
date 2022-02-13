@@ -28,6 +28,3 @@ export default function MenuBar() {
 </Navbar>
   );
 }
-//<Dropdown.Item href="https://katheris.artstation.com/"><i class="bi bi-brush"/> Artstation</Dropdown.Item>
-//<Dropdown.Item href="https://twitter.com/KatherisArt"><i className="bi bi-twitter"/> Twitter</Dropdown.Item>
-//<Dropdown.Item 
